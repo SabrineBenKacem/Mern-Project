@@ -1,0 +1,45 @@
+.app {
+    width: 100%;
+    min-height: 1000px;
+    /* background-color: #dddddd; */
+    margin: 0px auto;
+    overflow: hidden;
+    /* display: flex; */
+}
+
+.sidebar {
+    /* background-color: #be3131; */
+    border: 5px violet;
+    display: inline-flex;
+    height: 300px;
+    margin: 10px 0px 0px 15px;
+    vertical-align: top;
+    width: 300px;
+}
+
+
+.main {
+    background-color: #e06666;
+    
+    display: inline-flex;
+    height: 200px;
+    justify-content: center;
+    margin: 10px 0px 15px 15px;
+    padding: 0 2px;
+    vertical-align: top;
+    width: 800px;
+}
+
+
+
+.profile {
+    background-color: #236f6d;
+
+    width: 300px;
+    height: 100px;
+    position: fixed;
+    left: 400px;
+    top: 100px;
+    padding: 20px;
+
+}
